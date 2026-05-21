@@ -1,61 +1,45 @@
-# Hi, I'm Nguyen Ngoc Minh
+# Nguyen Ngoc Minh
 
-I am a DSAI student at HUST interested in computer vision, deep learning,
-3D reconstruction, synthetic data, and AI-powered applications.
+**DSAI student at HUST** focused on computer vision, deep learning, synthetic
+data, and embodied AI systems.
 
-I like building projects that connect research ideas with runnable systems:
-clear experiments, reproducible scripts, and honest reporting of what works and
-what does not.
+I build research-oriented projects that turn papers into runnable prototypes:
+clear training scripts, measurable experiments, readable reports, and honest
+limitations.
 
-## Focus Areas
+[![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Computer Vision](https://img.shields.io/badge/Computer%20Vision-0B5CAD?style=flat)](#)
+[![Reinforcement Learning](https://img.shields.io/badge/Reinforcement%20Learning-4B5563?style=flat)](#)
+[![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white)](https://openjdk.org/)
 
-- Computer vision and sparse-view 3D reconstruction
-- Deep learning with synthetic data generation
-- Robot learning, world models, and VLA-lite systems
-- Backend and AI system integration
-- Optimization for real-world decision systems
+## Current Focus
 
-## Featured Work
+- Sparse-view 3D reconstruction and visual reliability analysis
+- Synthetic data generation for downstream classifiers
+- Language-conditioned world models for robot control
+- Reproducible ML experiments, ablations, and failure-case analysis
 
-### Sparse-View 3D Reconstruction
+## Featured Projects
 
-[Computer_vision_2025.2](https://github.com/NguyenNgocMinh30012005/Computer_vision_2025.2)
-
-Indoor sparse-view 3D reconstruction project using MV-DUSt3R+, MASt3R-style
-matching, staged Kaggle experiments, ablation studies, and supervised reliability
-extensions for occlusion and repeated-structure cases.
-
-### Plant Disease Classification With Synthetic Data
-
-[DeepLearningProject2025.1](https://github.com/NguyenNgocMinh30012005/DeepLearningProject2025.1)
-
-Deep learning pipeline that uses Stable Diffusion 1.5, LoRA fine-tuning, and
-ResNet classifiers to study how synthetic plant disease images affect downstream
-classification.
-
-### World-Model Assisted Robot Control
-
-[DreamACT](https://github.com/NguyenNgocMinh30012005/DreamACT) and
-[DreamJEPA](https://github.com/NguyenNgocMinh30012005/DreamJEPA)
-
-Lightweight offline robot-control prototypes that train imitation policies and
-use compact world models to rerank candidate action chunks under limited compute.
-
-## Selected Repositories
-
-| Project | Area | Main Stack |
+| Project | What it demonstrates | Stack |
 |---|---|---|
-| Computer_vision_2025.2 | 3D reconstruction | Python, PyTorch, Kaggle, MV-DUSt3R+ |
-| DeepLearningProject2025.1 | Synthetic data, classification | Python, PyTorch, Stable Diffusion, LoRA |
-| DreamJEPA | Latent world models | Python, PyTorch, JEPA-style prediction |
-| DreamACT | Robot control | Python, PyTorch, imitation learning |
-| OperatingSystem2024.2 | AI scheduling | Python, XGBoost, PPO, Stable-Baselines3 |
-| IT3100E coursework | Java OOP | Java, JavaFX, Swing |
+| [LangVWM-RL](https://github.com/NguyenNgocMinh30012005/LangVWM-RL) | Language-conditioned visual world models for model-based robot control | Python, PyTorch, RL, CV |
+| [Computer_vision_2025.2](https://github.com/NguyenNgocMinh30012005/Computer_vision_2025.2) | Sparse-view indoor 3D reconstruction with MV-DUSt3R+, ablations, and reliability extensions | Python, PyTorch, Kaggle |
+| [DeepLearningProject2025.1](https://github.com/NguyenNgocMinh30012005/DeepLearningProject2025.1) | Plant disease classification with Stable Diffusion, LoRA synthetic data, and ResNet classifiers | Python, PyTorch, Diffusion |
+| [DreamACT](https://github.com/NguyenNgocMinh30012005/DreamACT) | World-model assisted VLA-lite offline robot control | Python, PyTorch, Imitation Learning |
+| [DreamJEPA](https://github.com/NguyenNgocMinh30012005/DreamJEPA) | JEPA-style latent world model for action reranking | Python, PyTorch, World Models |
+| [OperatingSystem2024.2](https://github.com/NguyenNgocMinh30012005/OperatingSystem2024.2) | AI-assisted CPU scheduling with XGBoost and PPO reinforcement learning | Python, XGBoost, SB3 |
 
-## What I Care About
+## Engineering Style
 
-- Reproducible experiments over vague demos
-- Clear README files that explain goals, methods, and limitations
-- Small but complete prototypes that can be run and extended
-- Honest separation between research claims, coursework, and experiments in progress
+- Prefer small, complete prototypes over vague demos
+- Write READMEs that explain goals, methods, commands, and limitations
+- Keep experiments reproducible with configs, scripts, metrics, and reports
+- Separate research claims from coursework and work in progress
 
+## Contact
+
+- Location: Vietnam
+- Email: nguyenngocminh2005bn@gmail.com
+- GitHub: [NguyenNgocMinh30012005](https://github.com/NguyenNgocMinh30012005)
