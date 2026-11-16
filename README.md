@@ -1,66 +1,67 @@
-<h1 align="center">Nguyen Ngoc Minh</h1>
+# Nguyen Ngoc Minh
 
-<p align="center">
-  <strong>DSAI @ HUST | Computer Vision, Deep Learning, Robotics/RL</strong>
-</p>
+DSAI @ HUST · Computer vision · Generative models · Robot learning
 
-<p align="center">
-  I build research-oriented ML projects that turn papers into runnable systems:
-  reproducible scripts, clear metrics, ablations, reports, and honest limitations.
-</p>
+I build personal projects and research experiments in machine learning, with an
+emphasis on runnable code, reproducible evaluation, and documented limitations.
+This page is a directory of my public work, including course projects and forks.
 
-<p align="center">
-  <a href="mailto:nguyenngocminh2005bn@gmail.com"><img src="https://img.shields.io/badge/Email-nguyenngocminh2005bn%40gmail.com-2563EB?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/NguyenNgocMinh30012005"><img src="https://img.shields.io/badge/GitHub-NguyenNgocMinh30012005-111827?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://img.shields.io/badge/Location-Vietnam-059669?style=flat" alt="Vietnam" />
-</p>
+[Email](mailto:nguyenngocminh2005bn@gmail.com) · Vietnam
 
-## Research And Engineering Focus
+## Projects to explore
 
-- Computer vision, sparse-view 3D reconstruction, and visual reliability
-- Deep learning with synthetic data generation and classifier evaluation
-- Robot learning, world models, action chunking, and VLA-lite systems
-- Reproducible ML experiments with configs, metrics, ablations, and reports
-- Applied AI systems that connect modeling, evaluation, and deployment constraints
-
-## Featured Portfolio
-
-| Project | Area | What It Shows |
+| Project | What it contains | Scope |
 |---|---|---|
-| [LangVWM-RL](https://github.com/NguyenNgocMinh30012005/LangVWM-RL) | Robot Learning, World Models | Language-conditioned visual world model, BC baseline, reranking, CEM planning, ablations, failure-case export |
-| [Computer_vision_2025.2](https://github.com/NguyenNgocMinh30012005/Computer_vision_2025.2) | 3D Reconstruction | Sparse-view indoor reconstruction with MV-DUSt3R+, staged experiments, reliability extensions, and ablation reports |
-| [DeepLearningProject2025.1](https://github.com/NguyenNgocMinh30012005/DeepLearningProject2025.1) | Synthetic Data, Classification | Stable Diffusion and LoRA synthetic plant disease generation with ResNet classifier evaluation |
-| [DreamACT](https://github.com/NguyenNgocMinh30012005/DreamACT) | Robot Control | ACT-lite imitation policy with world-model assisted candidate action reranking |
-| [DreamJEPA](https://github.com/NguyenNgocMinh30012005/DreamJEPA) | Latent Prediction | JEPA-style latent world model for VLA-lite offline robot control |
-| [OperatingSystem2024.2](https://github.com/NguyenNgocMinh30012005/OperatingSystem2024.2) | AI Scheduling | CPU scheduling with XGBoost and PPO reinforcement learning |
+| [T2I Search Experiments](https://github.com/NguyenNgocMinh30012005/t2i-search-experiments) | Config-driven orchestration for paired Classical Search BFS and Soft VASR text-to-image experiments on TPU/BF16. | Experiment harness; model weights and raw results are external. |
+| [LangVWM-RL](https://github.com/NguyenNgocMinh30012005/LangVWM-RL) | Language-conditioned visual world models, action chunks, and candidate reranking. | CPU-friendly prototype in a synthetic 2D tabletop environment. |
+| [Sparse-View 3D Reconstruction](https://github.com/NguyenNgocMinh30012005/Computer_vision_2025.2) | MV-DUSt3R+ reconstruction, source-depth correction, and predicted-depth experiments. | Course research project; validated RGB-D reference and experimental estimated-depth track. |
+| [Virtual Try-On Experiments](https://github.com/NguyenNgocMinh30012005/Project_Phase2) | Four ComfyUI-based try-on pipelines with masks, LoRA, local inpainting, and comparison grids. | GPU experiment suite; quality depends on masks, crops, and garment type. |
+| [Plant Disease Classification](https://github.com/NguyenNgocMinh30012005/DeepLearningProject2025.1) | Stable Diffusion + LoRA synthetic data and ResNet classifier evaluation. | Course project comparing real, synthetic, and mixed training data. |
+| [Customer Churn Dashboard](https://github.com/NguyenNgocMinh30012005/DataVis_2025.2) | Power BI dashboards and a Random Forest pipeline for churn analysis. | Course project; includes evaluation metrics and class-imbalance limitations. |
 
-## Toolbox
+## Related robot-learning experiments
 
-| Category | Tools |
+These repositories explore related ideas with different world-model interfaces.
+
+| Project | Main idea | Environment |
+|---|---|---|
+| [DreamACT](https://github.com/NguyenNgocMinh30012005/DreamACT) | ACT-lite behavior cloning with a scalar progress/risk model for action reranking. | CPU-friendly 2D PushT-lite. |
+| [DreamJEPA](https://github.com/NguyenNgocMinh30012005/DreamJEPA) | JEPA-style latent prediction with a progress head for action reranking. | CPU-friendly 2D PushT-lite with state observations. |
+
+These are small research prototypes. Their READMEs describe the implemented
+interfaces and limitations; they do not establish real-robot performance.
+
+## Coursework and system design
+
+| Repository | Contents |
 |---|---|
-| Languages | Python, Java, SQL, Bash, PowerShell |
-| ML / DL | PyTorch, NumPy, scikit-learn, XGBoost, Stable-Baselines3 |
-| Vision | CNNs, ResNet, diffusion models, LoRA, 3D reconstruction pipelines |
-| Robot / RL | Behavior cloning, action chunking, world models, reranking, PPO |
-| Engineering | Git, GitHub, reproducible configs, experiment scripts, reports |
+| [AIMS / Java OOP](https://github.com/NguyenNgocMinh30012005/IT3100E.744516.20241.20235533.NguyenNgocMinh) | Java media-store domain model, cart/store workflows, GUI exercises, and UML artifacts. |
+| [AI-Assisted CPU Scheduling](https://github.com/NguyenNgocMinh30012005/OperatingSystem2024.2) | XGBoost and PPO scheduling experiments; fork of [nhthai23-05/OperatingSystem2024.2](https://github.com/nhthai23-05/OperatingSystem2024.2). |
+| [Ecopark Bicycle Parking Design](https://github.com/NguyenNgocMinh30012005/Project_System_Design) | Draft business analysis, requirements, use cases, and traceability documents; fork of [KietLe2504/Project_System_Design](https://github.com/KietLe2504/Project_System_Design). |
 
-## GitHub Snapshot
+## Reproductions and upstream references
 
-<p align="center">
-  <img height="155" src="https://github-readme-stats.vercel.app/api?username=NguyenNgocMinh30012005&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub stats" />
-  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NguyenNgocMinh30012005&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
-</p>
+| Repository | Purpose | Upstream |
+|---|---|---|
+| [arc-modulo](https://github.com/NguyenNgocMinh30012005/arc-modulo) | Diffusion test-time alignment reproduction kit for Null-TTA, DAS, FK Steering, and FK Correctors. | [sontungkieu/arc-modulo](https://github.com/sontungkieu/arc-modulo) |
+| [flow-to-better](https://github.com/NguyenNgocMinh30012005/flow-to-better) | Offline preference-based reinforcement learning reference implementation. | [Zzl35/flow-to-better](https://github.com/Zzl35/flow-to-better) |
 
-## How I Work
+Both are forks. Please refer to the upstream projects, citations, and repository
+history for authorship and the original implementations.
 
-- Start from a clear research question or engineering objective
-- Build the smallest complete system that can be trained, evaluated, and inspected
-- Prefer measurable comparisons over vague demos
-- Keep READMEs useful: setup, commands, method, results, limitations, and next steps
-- Treat failure cases as signal, not noise
+## Early-stage work
 
-## Contact
+- [Image Generation](https://github.com/NguyenNgocMinh30012005/Image_Generation)
+  currently contains a placeholder README; implementation and usage instructions
+  have not been published.
 
-- Email: [nguyenngocminh2005bn@gmail.com](mailto:nguyenngocminh2005bn@gmail.com)
-- Location: Vietnam
-- Profile: [github.com/NguyenNgocMinh30012005](https://github.com/NguyenNgocMinh30012005)
+## Using or contributing to a project
+
+Start with the individual repository's README for setup, data/model requirements,
+evaluation commands, and known limitations. Check its license and upstream terms
+before reuse; licensing is not yet standardized across these repositories.
+
+For questions, reproducibility reports, or focused improvements, use the relevant
+repository's Issues or pull requests where enabled. Include the command, environment,
+and observed behavior when reporting a problem. For a fork, check the upstream
+project's contribution instructions first.
